@@ -1,0 +1,32 @@
+
+
+
+* {box-sizing: border-box}
+
+/* Style the 5tab */
+
+body, html {
+  height: 100%;
+}
+
+
+
+.pimg{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+
+.pinfo{
+  display: block !important;
+  position: fixed;
+  top: 10% !important;
+  color: rgb(67, 55, 10);
+  top: 23% !important;
+  left: 55%;
+  content: visible;
+  z-index: 9;
+  top: 35% !important;
+  left: 37%;
+}
