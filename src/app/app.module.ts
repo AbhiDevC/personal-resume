@@ -18,6 +18,9 @@ import { SkillsComponent } from './components/skills/skills.component';
     AppRoutingModule,
     SlickCarouselModule
   ],
+  exports: [    AppComponent,
+    HomeComponent,
+    SkillsComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
