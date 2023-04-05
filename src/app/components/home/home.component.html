@@ -1,11 +1,23 @@
 
    <!-- <div class="pimg">
       <img src="assets/image/abhi.jpg" height="100%" width="100%">
-   </div> -->
+   </div> -->'
+<div class="slider">
+   <ngx-slick-carousel class="carousel" 
+         #slickModal="slick-carousel" 
+         [config]="slideConfig" 
+         (init)="slickInit($event)"
+         (breakpoint)="breakpoint($event)"
+         (afterChange)="afterChange($event)"
+         (beforeChange)="beforeChange($event)">
+         <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <img src="{{ slide.img }}" alt=""  width="100%" height="50%">
+         </div>
+   </ngx-slick-carousel>
+</div>
    <div class="pinfo">
-      <h1 style="font-family: Lato,sans-serif;">Welcome, </h1>
-      <h2 style="font-family: Lato,sans-serif;">My name is <i><u>Abhinandan Sharma,</u></i> </h2>
-      <h3 style="font-family: Lato,sans-serif;">Working as a Software Developer</h3>
+      <h1 style="font-family: Lato,sans-serif">Welcome, My name is <i><u>Abhinandan Sharma,</u></i> </h1>
+      <h2 style="font-family: Lato,sans-serif;">Working as a Software Developer, I have worked in several IT companies such as :</h2>
    </div>
 
 

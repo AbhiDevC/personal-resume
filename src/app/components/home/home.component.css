@@ -9,7 +9,12 @@ body, html {
   height: 100%;
 }
 
-
+.slider{
+position: relative;
+top: 20% !important;
+left: 28%;
+width: 48%;
+}
 
 .pimg{
   position: fixed;
@@ -21,12 +26,10 @@ body, html {
 .pinfo{
   display: block !important;
   position: fixed;
-  top: 10% !important;
   color: rgb(67, 55, 10);
-  top: 23% !important;
-  left: 55%;
+  top: 12% !important;
+  left: 20%;
   content: visible;
   z-index: 9;
-  top: 35% !important;
-  left: 37%;
+
 }

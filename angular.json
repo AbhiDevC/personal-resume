@@ -112,5 +112,7 @@
       }
     }
   },
-  "defaultProject": "abhi-resume"
+  "cli": {
+    "analytics": false
+  }
 }

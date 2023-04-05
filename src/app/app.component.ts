@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 
 @Component({
   selector: 'app-root',
