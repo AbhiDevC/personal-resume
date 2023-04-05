@@ -16,7 +16,7 @@ import { SkillsComponent } from './components/skills/skills.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlickCarouselModule
+    SlickCarouselModule,
   ],
   exports: [    AppComponent,
     HomeComponent,
