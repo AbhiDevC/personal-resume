@@ -8,7 +8,18 @@
 body, html {
   height: 100%;
 }
-
+.header-big {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Classic, sans-serif;
+  color: #6f480a;
+  font-size: 13em;
+  line-height: 80%;
+  font-weight: 600;
+  letter-spacing: -5px;
+  text-transform:uppercase;
+  justify-content: center;
+}
 .slider{
 position: relative;
 top: 20% !important;
@@ -20,16 +31,68 @@ width: 48%;
   position: fixed;
   height: 100%;
   width: 100%;
+  right: 30%;
+  float: right !important;
+}
+.blurbg{
+  position: fixed;
+  background-color: rgba(124, 106, 19, 0.729) !important;
+  z-index:2;
+  top: 7%;
+  height: 100%;
+  width: 100%;
 }
 
-
+.pimgs{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(124, 106, 19, 0.729) !important; */
+  top: 19%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
 .pinfo{
   display: block !important;
   position: fixed;
   color: rgb(67, 55, 10);
-  top: 12% !important;
+  top: 15% !important;
   left: 20%;
   content: visible;
   z-index: 9;
 
+}
+
+@media screen and (max-width: 550px) {
+  
+  img{
+    float: right;
+    position: relative;
+    display: flex;
+    right: -4%;
+    width: 83%;
+  }
+  .pimg{
+    position: fixed;
+    height: 100%;
+    width: 70%;
+    top:5%;
+    float: right !important;
+    left: 14%;
+    align-items: center;
+  }
+  
+  .header-big {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Classic, sans-serif;
+    color: #6f480a;
+    font-size: 4em;
+    line-height: 80%;
+    font-weight: 600;
+    letter-spacing: -5px;
+    text-transform:uppercase;
+    justify-content: center;
+  }
 }
