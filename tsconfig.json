@@ -12,7 +12,7 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
-    "js/ts.implicitProjectConfig.experimentalDecorators":true,
+    // "js/ts.implicitProjectConfig.experimentalDecorators":true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true, 
     "moduleResolution": "node",
