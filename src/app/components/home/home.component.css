@@ -28,21 +28,33 @@ width: 48%;
 }
 
 .pimg{
-  position: fixed;
+  position: relative !important;
   height: 100%;
   width: 100%;
+  top: 30%;
   right: 30%;
   float: right !important;
 }
 .blurbg{
-  position: fixed;
+  position: relative !important;
   background-color: rgba(124, 106, 19, 0.729) !important;
   z-index:2;
-  top: 7%;
+  top: 36%;
   height: 100%;
   width: 100%;
 }
-
+.home{
+  height:100%;
+  width: 100%;
+  background-color: rgb(236, 185, 0);
+  z-index: 4;
+  display: block !important;
+  position: fixed;
+  color: rgb(67, 55, 10);
+  top: 7% !important;
+  content: visible;
+  z-index: 9;
+}
 .pimgs{
   position: fixed;
   height: 100%;
@@ -70,7 +82,7 @@ width: 48%;
     float: right;
     position: relative;
     display: flex;
-    right: -4%;
+    right: 40%;
     width: 83%;
   }
   .pimg{
@@ -81,9 +93,14 @@ width: 48%;
     float: right !important;
     left: 14%;
     align-items: center;
+    
   }
-  
+  .blurbg{
+    top: 33%;
+  }
   .header-big {
+    top: 32%;
+    position: fixed;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Classic, sans-serif;

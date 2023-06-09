@@ -1,0 +1,155 @@
+.skill{
+    height:100%;
+    width: 100%;
+    background-color: rgb(236, 185, 0);
+    z-index: 4;
+    display: block !important;
+    position: fixed;
+    color: rgb(67, 55, 10);
+    top: 7% !important;
+    content: visible;
+    z-index: 9;
+    overflow: scroll;
+
+}
+.split {
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-y: visible;
+    padding-top: 20px;
+    top: 14%;
+    height:48%;
+    display: block; 
+    padding-left: 2%; 
+    z-index: 21; 
+    width: 30% !important; 
+  }
+  .YButton{
+    background-color: #0a2d56; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+  }
+  .YButton:hover {
+    background-color: #6f480a;
+  }
+  .vl {
+    border-left: 6px solid rgb(210, 129, 29);
+    height: 100%;
+    position: fixed;
+    left: 35%;
+    margin-left: -3px;
+    top: 17%;
+    z-index: 21;
+    width: 2%;
+  }
+  .blurbg{
+    position: relative !important;
+    background-color: rgba(10, 9, 9, 0.729) !important;
+    z-index:20;
+    top: 7%;
+    height: 100%;
+    width: 100%;
+  }
+  /* Control the left side */
+  .left {
+    left: 14%;
+    background-color: #cdd6efe8;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 16%;
+    background-color: rgb(170, 235, 236);
+    margin-right: 2%;
+  }
+  
+h1{
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #6f480a;
+}
+.splitDown{
+    top: 70% ; 
+    height: 29%;
+    position: fixed;
+    overflow-y: visible;
+    padding-top: 20px;
+    display: block; 
+    padding-left: 2%; 
+    z-index: 21; 
+    width: 30% !important;
+}
+
+.cent{
+    position: fixed;
+    left: 46% !important;
+    text-decoration: underline rgb(42, 68, 61);
+}
+
+.skillTrade{
+    position: relative; 
+    padding: 0; 
+    width: 97%;
+}
+
+
+@media screen and (max-width: 550px) {
+.skills{
+    overflow:auto !important;
+}
+.split{
+    width: 95% !important;
+    height: 49% !important;
+    overflow: scroll ;
+}
+.pl{
+    display: block;
+    top:14%;
+    height: 37% !important;
+    position: relative;
+}
+.db{
+        display: block;
+        top: 54%;
+        height: 23% !important;
+        position: relative;
+
+}
+.fr{
+    display: block;
+    top:92% !important;
+    height: 37% !important;
+    overflow: scroll;
+    position: relative;
+}
+ .sl{
+    display: block;
+    overflow: scroll;
+    top:12%;
+    height: 23% !important;
+}
+.splitDown{
+    width: 95% !important;
+    height: 49% ;
+}
+
+.right{
+    left:2%;
+    right:2%;
+    top:none !important;
+}
+.left{
+    left:2%;
+    right:2%;
+    top: none !important;
+}
+
+}

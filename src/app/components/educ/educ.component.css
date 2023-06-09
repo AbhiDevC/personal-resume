@@ -1,0 +1,26 @@
+.skill{
+    height:100%;
+    width: 100%;
+    background-color: rgb(236, 185, 0);
+    z-index: 4;
+    display: block !important;
+    position: fixed;
+    color: rgb(67, 55, 10);
+    top: 7% !important;
+    content: visible;
+    z-index: 9;
+    overflow: scroll;
+
+}
+
+.cent{
+    position: fixed;
+    left: 46% !important;
+    text-decoration: underline rgb(42, 68, 61);
+}
+
+.headPTU{
+    position: relative;
+    top:20%;
+    z-index:12
+}
