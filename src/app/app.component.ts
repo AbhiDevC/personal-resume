@@ -12,15 +12,22 @@ export class AppComponent {
   title = 'abhi-resume';
   homeComponent:boolean= false;
   skillComponent: boolean=false;
+  eduComponent: boolean=false;
   homeButtonClicked(){
     this.skillComponent=false;
     this.homeComponent=true;
-  
+    this.eduComponent=false;
   }
   skillComponentClicked(){
     this.homeComponent=false;
     this.skillComponent=true;
-    
+    this.eduComponent=false;
+  }
+
+  eduComponentClicked(){
+    this.homeComponent= false;
+    this.skillComponent=false;
+    this.eduComponent=true;
   }
  ngOnChanges(): void {
   // this.homeComponent= false;

@@ -43,9 +43,9 @@ body, html {
   float: right !important;
   background-color: transparent;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   background-color: rgb(74, 14, 165);
-  height:5%;
+  height:8%;
   position: relative;
   z-index: 5;
   }
@@ -73,16 +73,10 @@ body, html {
     top: 0%;
 }
 
-li :after {
-  content: "/";
-  color: aquamarine;
-  position: fixed;
-  top: 0.8%;
-  font-size: x-large;
-  margin-left: 1%;
-}
 
-ul :last-child :after{
-content: " ";
+
+
+@media screen and (max-width: 550px) {
+
 
 }

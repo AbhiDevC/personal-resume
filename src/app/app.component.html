@@ -3,7 +3,7 @@
        <ul style="float: right !important;">
           <li><a class="active" (click)="homeButtonClicked()">Home </a></li>
           <li><a class="active" (click)="skillComponentClicked()">Skills </a></li>
-          <li><a href="#contact">Education </a></li>
+          <li><a class="active" (click)="eduComponentClicked()">Education </a></li>
        </ul>
     </div>
 <app-home></app-home>
@@ -15,3 +15,6 @@
  <ng-container *ngIf= "skillComponent===true">
     <app-skills></app-skills>
  </ng-container>
+ <ng-container *ngIf= "eduComponent===true">
+   <app-educ></app-educ>
+</ng-container>
